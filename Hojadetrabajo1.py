@@ -1,0 +1,8 @@
+print("Por favor Ingrese su peso en Kg:")
+peso = input()
+print ("Por favor Ingrese su altura en m:")
+estatura = input()
+indicemCorporal=round (float (peso)/float(estatura)**2,2)
+print("Tu indice de masa corporal es:")
+print(indicemCorporal)
+print("Gracias por usar eñ programa :")
